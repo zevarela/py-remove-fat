@@ -49,7 +49,7 @@ Use `--include` to measure additional sibling folders (for example `.git`, `data
 Clone or copy this repository, then run the script directly:
 
 ```powershell
-git clone <repository-url>
+git clone https://github.com/zevarela/py-remove-fat.git
 cd py-remove-fat
 python py-remove-fat.py
 ```
