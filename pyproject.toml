@@ -1,0 +1,7 @@
+[project]
+name = "py-remove-fat"
+version = "1.0.0"
+description = "Identifies and removes rebuildable files in Python folders so you can save disk space and have more backups!"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
