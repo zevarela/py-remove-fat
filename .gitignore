@@ -6,5 +6,18 @@ dist/
 wheels/
 *.egg-info
 
+# tests
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# GitHub configuration files
+.gh-config/
+
+# Local files, like the original full size project banner image
+.my_local_files/
+
+
 # Virtual environments
 .venv

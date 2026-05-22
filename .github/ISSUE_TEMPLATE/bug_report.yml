@@ -1,0 +1,52 @@
+name: Bug report
+description: Report incorrect behavior, crashes, or data loss risk
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve **py-remove-fat**. Please redact paths and secrets from logs.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you see instead?
+      placeholder: The summary showed X but disk usage was Y…
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Full `uv run` command and minimal folder layout if possible
+      placeholder: |
+        uv run py-remove-fat.py C:\Src --del .venv --print-only
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Tool version
+      description: From the banner line or pyproject.toml
+      placeholder: "1.1.0"
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      placeholder: "3.12.12"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - Linux
+        - macOS
+        - Other
+    validations:
+      required: true

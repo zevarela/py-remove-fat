@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions & ideas (GitHub Issues)
+    url: https://github.com/zevarela/py-remove-fat/issues
+    about: Bugs, feature requests, and general feedback
+  - name: Maintainer (LinkedIn)
+    url: https://www.linkedin.com/in/zevarela/
+    about: Get in touch directly
